@@ -132,5 +132,5 @@ export function unregister() {
     navigator.serviceWorker.ready.then(registration => {
       registration.unregister();
     });
-  }
-}
+  };
+};
